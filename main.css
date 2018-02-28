@@ -6,7 +6,7 @@ body {
   font-family: 'Black Ops One', cursive;
   font-size: 1.3em;
   margin:0 auto;
-  background: url("images/sidewalk.png") repeat-x left 1000px, url("images/street.png") repeat-x left 1025px, url("images/bgbuilding.png") repeat-x 2000px 755px;
+  background: url("images/sidewalk.png") repeat-x left 1000px, url("images/street.png") repeat-x left 1025px, url("images/bgbuilding.png") repeat-x 2000px 755px, url("images/sky.png");
 }
 #board {
   position: absolute;
@@ -39,9 +39,9 @@ body {
 /* skateboard css */
 .ad1 {
   display: block;
-  position: absolute;
+  position:absolute;
   top: 690px;
-  right: -175px;
+  right: -225px;
 }
 .overlay {
   position: absolute;
