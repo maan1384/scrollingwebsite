@@ -16,7 +16,7 @@ window.onscroll = function() {
   //test if it works
   console.log(fromLeft);
 
-  board.style.left = 1000 + fromLeft + "px";
+  board.style.left = 500 + fromLeft + "px";
 
   if (fromLeft > 0){
     board.innerHTML = "";
@@ -25,7 +25,4 @@ window.onscroll = function() {
     board.innerHTML = "SCROLL TO BEGIN";
     board.style.backgroundImage= "url(skateboard.png)";
   }
-
-
-
 }

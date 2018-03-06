@@ -50,7 +50,7 @@ body {
   left: 100px;
   right: 0;
   height: 200px;
-  width: 300px;
+  width: 250px;
   opacity: 0;
   transition: .5s ease;
   background-color: #008CBA;
