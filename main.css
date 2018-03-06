@@ -6,11 +6,11 @@ body {
   font-family: 'Black Ops One', cursive;
   font-size: 1.3em;
   margin:0 auto;
-  background: url("images/sidewalk.png") repeat-x left 1000px, url("images/street.png") repeat-x left 1025px, url("images/bgbuilding.png") repeat-x 2000px 755px, url("images/sky.png");
+  background: url("images/sidewalk.png") repeat-x left 800px, url("images/bgbuilding.png") repeat-x left 350px, url("images/sky.png");
 }
 #board {
   position: absolute;
-  top:985px;
+  top:795px;
   left: 0;
   width: 48px;
   height: 7px;
@@ -31,7 +31,7 @@ body {
   position: absolute;
   width: 20px;
   height: 35px;
-  top: 980px;
+  top: 800px;
   right: 200px;
   z-index: 1;
 }
