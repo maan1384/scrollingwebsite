@@ -7,7 +7,7 @@ body {
   font-family: 'Black Ops One', cursive;
   font-size: 1.3em;
   margin:0 auto;
-  background: url("images/sidewalk.png") repeat-x left 800px, url("images/bgbuilding.png") repeat-x left 350px, url("images/sky.png");
+  background: url("images/sidewalk.png") repeat-x left 800px, url("images/bgbuilding.png") repeat-x left 350px, url("images/sky.png") repeat-x left 5px;
 }
 #board {
   position: absolute;
@@ -15,7 +15,7 @@ body {
   width: 50px;
   height: 67px;
   text-align: center;
-  color: blue;
+  color: lightgreen;
 }
 
 #canvas {
