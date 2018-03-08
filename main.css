@@ -160,6 +160,14 @@ body {
   opacity: 1;
 }
 
+.ad3{
+  display: block;
+  position: absolute;
+  top: 620px;
+  right: -3780px;
+  z-index: -1;
+}
+
 
 /* font css */
 .text {
