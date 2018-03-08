@@ -15,7 +15,9 @@ body {
   height: 67px;
   text-align: center;
   animation-duration: 1s;
-  color: black;
+  color: white;
+  text-shadow: 5px 5px black;
+
 }
 #board:hover {
   animation-name: jump;
@@ -33,6 +35,12 @@ body {
   margin: 0 auto;
   width: 12000px;
   height: 500px;
+}
+#instruct{
+  position: absolute;
+  top:600px;
+  right: 400px;
+  text-align: center;
 }
 /* font cssx */
 .text1{
@@ -153,7 +161,7 @@ body {
 }
 
 
-
+/* font css */
 .text {
   color: white;
   font-size: 20px;
@@ -162,4 +170,13 @@ body {
   left: 45%;
   transform: translate(-50%, -50%);
   text-align: left;
+}
+
+#title {
+  text-align: center;
+  position: absolute;
+  top: 100px;
+  right: 400px;
+  color: white;
+  text-shadow: 5px 5px black;
 }
