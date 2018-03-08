@@ -5,7 +5,7 @@ var board = document.getElementById('board');
 var fromLeft = window.pageXOffset;
 
 
-board.innerHTML = "Scroll to Start";
+board.innerHTML = "";
 
 //pseudocode - when the user is scrolling update the variable fromTop and make decisions to change stuff on the pageYOffset
 //window.scroll<- boolean (yes/no)
@@ -22,7 +22,7 @@ window.onscroll = function() {
     board.innerHTML = "";
     board.style.backgroundImage="url(images/skate.png)";
   } else {
-    board.innerHTML = "Scroll to Start";
-    board.style.backgroundImage= "url(skateboard.png)";
+    board.innerHTML = "Let's Go!";
+    board.style.backgroundImage= "url(images/skate.png)";
   }
 }
