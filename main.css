@@ -19,7 +19,7 @@ body {
 }
 #board {
   position: absolute;
-  top:750px;
+  top:740px;
   width: 50px;
   height: 67px;
   text-align: center;
@@ -42,7 +42,7 @@ body {
 #canvas {
   position: relative;
   margin: 0 auto;
-  width: 12000px;
+  width: 15000px;
   height: 500px;
 }
 #instruct{
