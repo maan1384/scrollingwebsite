@@ -42,7 +42,7 @@ body {
 #canvas {
   position: relative;
   margin: 0 auto;
-  width: 15000px;
+  width: 13000px;
   height: 500px;
 }
 #instruct{
