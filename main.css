@@ -4,9 +4,18 @@
 /* backgroud css */
 body {
   font-family: 'Black Ops One', cursive;
-  font-size: 1.3em;
+  font-size: 1.5em;
   margin:0 auto;
   background: url("images/sidewalk.png") repeat-x left 800px, url("images/bgbuilding.png") repeat-x left 350px, url("images/sky.png") repeat-x left 5px, linear-gradient(to bottom, rgba(125,185,232,1) 0%,rgba(159,252,238,1) 28%,rgba(252,252,255,1) 40%) repeat-x;
+}
+#go{
+  text-align: center;
+  position: absolute;
+  top:400px;
+  left: 950px;
+  color: white;
+  text-shadow: 3px 3px black;
+
 }
 #board {
   position: absolute;
@@ -198,6 +207,12 @@ body {
   opacity: 1;
 }
 
+.skatepark {
+  position: absolute;
+  right:-12000px;
+  top:475px;
+  z-index: -1;
+}
 
 /* font css */
 .text {

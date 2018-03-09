@@ -16,13 +16,13 @@ window.onscroll = function() {
   //test if it works
   console.log(fromLeft);
 
-  board.style.left = 700 + fromLeft + "px";
+  board.style.left = 1200 + fromLeft + "px";
 
   if (fromLeft > 0){
-    board.innerHTML = "";
+    // board.innerHTML = "";
     board.style.backgroundImage="url(images/skate.png)";
   } else {
-    board.innerHTML = "Let's Go!";
+    // board.innerHTML = "Let's Go!";
     board.style.backgroundImage= "url(images/skate.png)";
   }
 }
