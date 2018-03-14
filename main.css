@@ -144,7 +144,7 @@ body {
 }
 .overlay {
   position: absolute;
-  top: 0;
+  top: -300px;
   bottom: 0;
   left: 100px;
   right: 0;
@@ -299,7 +299,22 @@ body {
   position: absolute;
   top: 725px;
   right: -4980px;
+}
+.overlay8 {
+  position: absolute;
+  top: -500px;
+  bottom: 0;
+  left: 350px;
+  right: 0;
+  height: 450px;
+  width: 300px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
 
+.truck1:hover .overlay8 {
+  opacity: 1;
 }
 
 .vhs {
@@ -311,7 +326,7 @@ body {
 }
 .overlay4 {
   position: absolute;
-  top: -200px;
+  top: -400px;
   bottom: 0;
   left: 100px;
   right: 0;
@@ -327,7 +342,7 @@ body {
 }
 .overlay5 {
   position: absolute;
-  top: -200px;
+  top: -400px;
   bottom: 0;
   left: 650px;
   right: 0;
@@ -387,7 +402,7 @@ body {
   position: absolute;
   top: 150px;
   bottom: 0;
-  left:50px;
+  left:550px;
   right: 0;
   height: 250px;
   width:470px;
@@ -397,6 +412,22 @@ body {
   color: white;
 }
 .xgames:hover .overlay6{
+    opacity: 1;
+}
+.overlay9{
+  position: absolute;
+  top: 50px;
+  bottom: 0;
+  left:-450px;
+  right: 0;
+  height: 350px;
+  width:470px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+  color: white;
+}
+.xgames:hover .overlay9{
     opacity: 1;
 }
 
