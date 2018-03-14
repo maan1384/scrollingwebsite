@@ -131,7 +131,7 @@ body {
   width: 20px;
   height: 35px;
   top: 810px;
-  right: -8420px;
+  right: -9420px;
   z-index: 1;
 }
 
@@ -172,13 +172,13 @@ body {
 .ad3{
   display: block;
   position: absolute;
-  top: 620px;
-  right: -3780px;
+  top: 520px;
+  right: -8780px;
   z-index: -1;
 }
 .overlay2{
   position: absolute;
-  top: 50px;
+  top: 150px;
   bottom: 0;
   left: 100px;
   right: 0;
@@ -190,7 +190,7 @@ body {
 }
 .overlay3{
   position: absolute;
-  top: 50px;
+  top: 150px;
   bottom: 0;
   left: 475px;
   right: 0;
@@ -207,11 +207,197 @@ body {
   opacity: 1;
 }
 
+.ad4{
+  display: block;
+  position: absolute;
+  top: 385px;
+  right: -3980px;
+  z-index: -1;
+}
+.overlay0{
+  position: absolute;
+  top: 50px;
+  bottom: 0;
+  left: 100px;
+  right: 0;
+  height: 300px;
+  width: 300px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+  color: white;
+}
+.overlay1{
+  position: absolute;
+  top: 50px;
+  bottom: 0;
+  left: 1075px;
+  right: 0;
+  height: 350px;
+  width:300px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+  color: white;
+}
+.ad4:hover .overlay0 {
+  opacity: 1;
+}
+.ad4:hover .overlay1 {
+  opacity: 1;
+}
+
 .skatepark {
   position: absolute;
   right:-12000px;
-  top:475px;
+  top:420px;
   z-index: -1;
+}
+.overlay7{
+  position: absolute;
+  top: 125px;
+  bottom: 0;
+  left:350px;
+  right: 0;
+  height: 250px;
+  width:400px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+  color: white;
+}
+.skatepark:hover .overlay7{
+    opacity: 1;
+}
+.skaters1 {
+  position: absolute;
+  right:-3500px;
+  top:775px;
+  z-index: 1;
+}.skaters2 {
+  position: absolute;
+  right:-8900px;
+  top:775px;
+  z-index: 1;
+}
+.skaters3 {
+  position: absolute;
+  right:-11500px;
+  top:775px;
+  z-index: 1;
+}
+.skaters4 {
+  position: absolute;
+  right:-6300px;
+  top:775px;
+  z-index: 1;
+}
+
+
+.truck1{
+  display: block;
+  position: absolute;
+  top: 725px;
+  right: -4980px;
+
+}
+
+.vhs {
+  display: block;
+  position: absolute;
+  top: 570px;
+  right: -6700px;
+  z-index: -1;
+}
+.overlay4 {
+  position: absolute;
+  top: -200px;
+  bottom: 0;
+  left: 100px;
+  right: 0;
+  height: 350px;
+  width: 250px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.vhs:hover .overlay4 {
+  opacity: 1;
+}
+.overlay5 {
+  position: absolute;
+  top: -200px;
+  bottom: 0;
+  left: 650px;
+  right: 0;
+  height: 350px;
+  width: 250px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.vhs:hover .overlay5 {
+  opacity: 1;
+}
+
+.car1{
+  display: block;
+  position: absolute;
+  top: 800px;
+  right: -300px;
+}
+.car2{
+  display: block;
+  position: absolute;
+  top: 800px;
+  right: -8000px;
+  z-index: 2;
+}
+.car3{
+  display: block;
+  position: absolute;
+  top: 800px;
+  right: -11700px;
+  z-index: 2;
+}
+.car4{
+  display: block;
+  position: absolute;
+  top: 800px;
+  right: -3700px;
+  z-index: 2;
+}
+.car5{
+  display: block;
+  position: absolute;
+  top: 800px;
+  right: -10000px;
+  z-index: 2;
+}
+.xgames{
+  display: block;
+  position: absolute;
+  right:-10300px;
+  top:400px;
+  z-index: -2;
+}
+.overlay6{
+  position: absolute;
+  top: 150px;
+  bottom: 0;
+  left:50px;
+  right: 0;
+  height: 250px;
+  width:470px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+  color: white;
+}
+.xgames:hover .overlay6{
+    opacity: 1;
 }
 
 /* font css */
