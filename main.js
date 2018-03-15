@@ -16,7 +16,7 @@ window.onscroll = function() {
   //test if it works
   console.log(fromLeft);
 
-  board.style.left = 800 + fromLeft + "px";
+  board.style.left = 1000 + fromLeft + "px";
 
   if (fromLeft > 0){
     // board.innerHTML = "";
