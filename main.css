@@ -135,6 +135,26 @@ body {
   z-index: 1;
 }
 
+.box9 {
+  background-color: green;
+  position: absolute;
+  width: 20px;
+  height: 25px;
+  top: 780px;
+  right: -7550px;
+  z-index:-1;
+}
+
+.box10 {
+  background-color: darkblue;
+  position: absolute;
+  width: 80px;
+  height: 35px;
+  top: 770px;
+  right: -7500px;
+  z-index:-1;
+}
+
 /* skateboard css */
 .ad1 {
   display: block;
